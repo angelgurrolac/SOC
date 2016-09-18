@@ -31,11 +31,24 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
+    
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
+h2 {
+    color: white;
+}
+h4{
+    font-style: italic;
+    color: #56AF31 !important;
+    margin-top: 5.5px !important;
+    margin-bottom: 5.5px !important;
+}
+p{
+        line-height: 20px;
+        color: white !important;
 
+}
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
@@ -110,7 +123,7 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
+        padding-top: 70px;
         padding-bottom: 100px;
     }
 
@@ -125,7 +138,7 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 25px 0;
+        padding: 15px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -181,7 +194,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #41516F;
 }
 
 section.success a,
@@ -456,4 +469,53 @@ footer .footer-below {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+
+.background-header {
+    height: 803px;
+}
+
+.background-image {
+    background-image: url("../img/fondo-degradado1.jpg");
+    height: 100%;
+    width: 100%;
+}
+.list-inline-top {
+    padding-top: 100px;
+}
+.img-icon {
+        width: 50%;
+}
+.background-navbar{
+    background-color: white !important;
+}
+.a-color{
+    color: #005692 !important;
+}
+.a-color:hover{
+    color: #56AF31 !important;
+}
+.btn-color{
+    background-color: #56AF31 !important;
+    border-color: #56AF31 !important;
+}
+.btn-color:hover{
+    background-color: #18163B !important;
+    border-color: #18163B !important;
+
+}
+.title-line{
+    max-width: 20px;
+    border: 0;
+    border-top: solid 6px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #56AF31 !important;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+        color: #56AF31 !important;
+}
+.background-conocenos{
+        background-color: #18163B;
 }
