@@ -49,6 +49,10 @@ p{
         color: white !important;
 
 }
+iframe {
+        border: 0;
+    margin: 20px 20px 20px 40px;
+}
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
@@ -343,10 +347,6 @@ section.success a.active {
     color: #18bc9c;
 }
 
-form .row:first-child .floating-label-form-group {
-    border-top: 1px solid #eee;
-}
-
 footer {
     color: #fff;
 }
@@ -521,5 +521,7 @@ footer .footer-below {
 }
 .separation-block{
         top: 19px;
-
+}
+.green{
+    color: #56AF31;
 }
