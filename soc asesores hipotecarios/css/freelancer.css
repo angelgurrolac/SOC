@@ -44,13 +44,24 @@ h2 {
     letter-spacing: 3px;
 }
 h4{
-    font-style: italic;
     font-family: "MuseoSans-100Italic" !important;
      font-size: 24px;
      letter-spacing: 2px;
     color: #56AF31 !important;
     margin-top: 5.5px !important;
     margin-bottom: 5.5px !important;
+}
+h5{
+    font-family: "MuseoSans-100" !important;
+    font-size: 20px;
+    color: #56AF31;
+    text-align: left;
+}
+h6{
+    font-family: "MuseoSans-100" !important;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: left;
 }
 p{
         line-height: 20px;
@@ -569,10 +580,11 @@ footer .footer-below {
 }
 
 .texto-footer{
-     font-family: "MuseoSans-100Italic" !important;
-        font-size: 14px !important;
+     font-family: "MuseoSans-100" !important;
+        font-size: 16px !important;
         color: #415270 !important;
         font-weight: bold !important;
+        text-align: left !important;
       }
 .text-pasta{
     font-size: 12px !important;
@@ -584,10 +596,7 @@ footer .footer-below {
  font-weight: bold !important;
       }
 
-      .logo-pasta
-      {
-            margin-left: 216px !important;
-      }
+
 
       .border-button{
     border-radius: 0;
@@ -683,4 +692,8 @@ footer .footer-below {
         .text-campos{
             color: white !important;
 
+        }
+        .icons {
+                position: relative;
+                bottom: -27px;
         }
