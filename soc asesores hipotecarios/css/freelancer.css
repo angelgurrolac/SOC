@@ -11,7 +11,7 @@
 p {
     font-size: 20px;
     font-family: "MuseoSans-100" !important;
-    line-height: 22px !important;
+    line-height: 23px !important;
 }
 
 p.small {
@@ -208,6 +208,10 @@ header .intro-text .skills {
 
 section {
     padding: 100px 0;
+}
+
+.section-especial {
+    padding: 100px 0 0 0;
 }
 
 section h2 {
@@ -499,16 +503,16 @@ footer .footer-below {
     height: 100%;
     width: 100%;
 }
+.back-banner{
+    background-image: url("../img/banner-soc2.png");
+    width: 100%;
+    
+}
 .list-inline-top {
     padding-top: 100px;
 }
 .img-icon {
     width: 50%;
-}
-.or{
-    color: white !important;
-    visibility: inherit !important;
-
 }
 .background-navbar{
     background-color: white !important;
@@ -645,6 +649,7 @@ footer .footer-below {
 }
 .or{
     color: white;
+    display: none;
 }
 .text-contacto{
     font-size: 18px;
@@ -671,7 +676,7 @@ h6{
 }
 .or{
     color: white;
-    visibility: hidden;
+    display: none;
 }
 .text-contacto{
     font-size: 18px;
@@ -764,5 +769,10 @@ h6{
 }
 .width-icon{
     width:50px;
+}
+.or{
+    color: white !important;
+    display: inline;
+
 }
 
