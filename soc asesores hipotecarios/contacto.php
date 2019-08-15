@@ -6,7 +6,7 @@ $mensaje = $_POST['mensaje'];
 
 
 
-$para = 'contacto@socfluye.com';
+$para = 'Hola@socfluye.com';
 $titulo = 'Mensaje de la página socfluye';
 $header = 'From: ' . $email;
 $msjCorreo = "Nombre: $nombre\n E-Mail: $email\n Telefono: $telefono\n Mensaje:\n $mensaje";
